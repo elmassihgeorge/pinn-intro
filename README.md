@@ -23,7 +23,7 @@ results png file created upon completion of the training script.
 ## Installation
 
 ### Prerequisites
-- Python 3.x
+- Python 3.12
 - pip
 - torch
 - numpy
@@ -62,9 +62,9 @@ The physics loss is computed by evaluating the differential equation against the
 The boundary loss is computed by evaluating the initial condition against the PINN's prediction at the initial time point and taking the mean squared error of the residual.
 
 ## Hyperparameters
-N_EPOCHS: Number of epochs to train for
-LR: Learning rate
-N_SAMPLES: Number of collocation points
+- N_EPOCHS: Number of epochs to train for
+- LR: Learning rate
+- N_SAMPLES: Number of collocation points
 
 ## Blog Post
 - TODO: Add link to blog post when published
